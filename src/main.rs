@@ -1,6 +1,5 @@
-use std::process::{Child, Command};
-
 use inquire::{Select, Text};
+use std::process::{Child, Command};
 
 fn name_project() -> String {
     let name = Text::new("What is the name of your project?").prompt();
